@@ -36,11 +36,34 @@
     color: #ffffff;
 }
 
+.menu nav ul li a:hover {
+    font-size: 17px;
+    color: #D63D4D;
+}
+
 .principal {
     padding: 90px 0 20px 15px;
     background-color: #D6DDE8;
     color: #19162e;
     line-height: 1.6;
+}
+
+.apresentacao p {
+    float: inline-start;
+    border: 2px solid #2d2569;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 30px;
+    padding: 10px;
+    width: 500px;
+}
+
+.apresentacao img {
+    border: 2px solid #2d2569;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 7px 8px;
+    transform: translateX(250px);
 }
 
 .apresentacao h1 {
