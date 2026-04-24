@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.menu {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid #2d2569;
+    background-color: #393366;
+}
+
+.menu img {
+    height: 50px;
+    margin: 10px 0 0 10px;
+}
+
+.menu nav ul {
+    display: flex;
+    justify-content: end;
+    margin-right: 13px;
+    transform: translateY(-35px);
+    gap: 20px;
+    list-style: none;
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.principal {
+    padding: 90px 0 20px 15px;
+    background-color: #D6DDE8;
+    color: #19162e;
+    line-height: 1.6;
+}
+
+.apresentacao h1 {
+    font-size: 24px;
+    color: #D63D4D;
+    margin-bottom: 10px;
+}
+
+.cursos h2 {
+    color: #D63D4D;
+}
+
+.cursos h3 {
+    color: #19162e;
+}
+
+.rodape {
+    height: 70px;
+    width: 100%;
+    background-color: #393366;
+    border-top: 2px solid #2d2569;
+    text-align: center;
+}
+
+.rodape p {
+    color: #ffffff;
+    font-size: 12px;   
+    transform: translateY(10px);
+    padding: 2px;
+}
+
+.rodape p small {
+    color: #D63D4D;
+}
